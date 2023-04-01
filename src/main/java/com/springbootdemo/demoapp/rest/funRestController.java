@@ -11,4 +11,9 @@ public class funRestController {
 
         return "Hello World";
     }
+
+    @GetMapping("name")
+    public String myName(){
+        return "Shubham Sharma";
+    }
 }
