@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class ProfileRestController {
 
     @GetMapping("profile")
-    public String Profile(){
+    public static String Profile(){
 
         return ("Name: Shubham Sharma "+ "Age: 24 " + "Level Of Study: Master Of Engineering (Software Engineering");
     }
